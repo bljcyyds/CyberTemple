@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="#1C1C1C"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/event_name"
+        android:text="TextView"
+        android:background="@drawable/outline"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:textColorHint="@color/teal_200"
+        android:textColor="#FCEC0C"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/event_description"
+        android:text="TextView"
+        android:background="@drawable/outline"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="440dp"
+        android:layout_below="@+id/event_name"
+        android:textColor="#FCEC0C"
+        android:textColorHint="@color/teal_200"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/event_description"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/teal_200"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/event_add_count"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="wish"
+        app:srcCompat="@drawable/xiang"
+        android:backgroundTint="#1C1C1C"
+        android:layout_below="@id/count"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:id="@+id/success"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/count"
+        android:layout_alignLeft="@id/event_description"
+        android:backgroundTint="#1C1C1C"
+        android:text="Success"
+        app:srcCompat="@drawable/success" />
+
+    <ImageView
+        android:id="@+id/fail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text="Fail"
+        app:srcCompat="@drawable/fail"
+        android:layout_below="@id/count"
+        android:layout_alignRight="@id/event_description"
+        android:backgroundTint="#1C1C1C"/>
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="Edit"
+        android:layout_marginLeft="0dp"
+        android:layout_alignLeft="@id/success"
+        android:layout_below="@id/success"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#FCEC0C"/>
+
+    <Button
+        android:id="@+id/back_list2"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:text="Back"
+        android:layout_alignRight="@id/fail"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/fail"
+        android:backgroundTint="#FCEC0C"/>
+
+</RelativeLayout>

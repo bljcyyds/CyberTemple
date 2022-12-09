@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:orientation="vertical"
+    tools:context=".SummaryActivity">
+
+    <TextView
+        android:id="@+id/finalName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#FCEC0C"
+        android:layout_marginLeft="5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/finalCount"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:textColor="#FCEC0C"
+        android:layout_marginLeft="5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/finalStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:textColor="#FCEC0C"
+        android:layout_marginLeft="5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/finalEndDate"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:textColor="#FCEC0C"
+        android:layout_marginLeft="5dp"
+        android:text="TextView" />
+
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="#FCEC0C"
+        android:layout_marginLeft="5dp"
+        android:text="TextView" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentRight="true"
+
+        app:srcCompat="@drawable/success" />
+
+
+    <Button
+        android:id="@+id/back_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:backgroundTint="#FCEC0C"/>
+</LinearLayout>

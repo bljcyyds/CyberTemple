@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1C1C1C"
+    android:orientation="vertical">
+    <ImageButton
+        android:id="@+id/btn_list"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_image2"
+        android:src="@drawable/list"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/kun">
+
+    </ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/btnleft"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_image2"
+            android:scaleType="fitXY"
+            android:src="@drawable/left">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/btnright"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/bg_image2"
+            android:scaleType="centerInside"
+            android:src="@drawable/right">
+
+        </ImageButton>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btnmuyu"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_image"
+        android:src="@drawable/muyu"
+        android:shadowColor="@color/black"
+        android:scaleType="fitCenter"
+        tools:ignore="ExtraText,NotSibling" />
+
+
+
+</RelativeLayout>
